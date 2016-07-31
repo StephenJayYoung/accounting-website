@@ -122,7 +122,7 @@ textarea {
 
 
 .services-background {
-	background-image:url('../images/runfast-room.jpg');
+	background-image:url('../images/slider-2.jpg');
 }
 
 @media (max-width: 768px){
@@ -132,7 +132,7 @@ textarea {
 }
 
 .reviews-background{
-	background-image:url('../images/reviews-background-derek-updated.jpg');
+	background-image:url('../images/slider-2.jpg');
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;

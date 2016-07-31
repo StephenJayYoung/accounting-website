@@ -107,10 +107,10 @@ jQuery(document).ready(function($){
                                 draggable: false,
                                 scrollwheel: false,
                                 noWrap: true,
-                center:new google.maps.LatLng(45.469021, -122.652776),mapTypeId: google.maps.MapTypeId.ROADMAP};
+                center:new google.maps.LatLng(45.486025, -122.676148),mapTypeId: google.maps.MapTypeId.ROADMAP};
             map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-            marker = new google.maps.Marker({map: map,icon: iconBase + 'marker.png',animation: google.maps.Animation.DROP,position: new google.maps.LatLng(45.469021, -122.652776)});
-            infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>7718 SE 13th Ave</b><br/>Portland, Oregon 97202</a></div>" });
+            marker = new google.maps.Marker({map: map,icon: iconBase + 'marker.png',animation: google.maps.Animation.DROP,position: new google.maps.LatLng(45.486025, -122.676148)});
+            infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>5125 SW Macadam Ave #205</b><br/>Portland, Oregon 97239</a></div>" });
             google.maps.event.addListener(marker, "click", function(){
                 infowindow.open(map,marker);
             });
