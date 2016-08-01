@@ -173,7 +173,11 @@ background-size: cover;
 
 .services-icons{
 	font-size: 18px;
+	padding: 5px;
+}
 
+.learnmore-button{
+	margin-bottom: 25px !important;
 }
 
 /*for double pop-up modal*/
