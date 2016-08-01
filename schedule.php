@@ -1,9 +1,9 @@
 <?php
 
-$officeNotifierEmail    = "notifier@jimcolemandds.com";
-$subjectPrefix          = "New Consultation Request from jimcolemandds.com";
-$successMessage         = "Congratulations! Dentistry is a big part of a healthy life, and we're excited to be a part of yours. We will contact you in the next 48 business hours to schedule a convenient appointment time for your first visit or answer any questions you may still have. Thank you!";
-$officeEmail            = "office@jimcolemandds.com";
+$officeNotifierEmail    = "";
+$subjectPrefix          = "";
+$successMessage         = "";
+$officeEmail            = "";
 
 $errors                 = array();
 $data                   = array();

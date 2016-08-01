@@ -317,4 +317,122 @@ head.header-2 .top-cart.new-angle > a:before {
     border-bottom-left-radius: none !important;
 }
 
+/*MODAL OVERRIDES*/
+.modal-body{
+	font-size: 15px;
+}
+
+@media (max-width: 480px) {
+
+.modal-title {
+    font-size: 22px !important;
+}
+
+.close {
+    font-size: 90px;
+    line-height: .24;
+    color: #e1e3e4 !important;
+    margin: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 15px;
+    border-width: 1.3px !important;
+    opacity: .99 !important;
+	}
+}
+
+
+/*.modal-header .close {
+    font-size: 90px;
+    line-height: .24;
+    color: #e1e3e4 !important;
+    margin: -2px !important;
+    padding-top: 5px !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 15px;
+    border-width: 1.3px !important;
+    opacity: .99 !important;
+    margin-right: 15px !important;
+    }*/
+
+.modal-header {
+  border-bottom: none !important; 
+}
+
+.modal-title {
+    font-size: 19px !important;
+	}
+}
+
+.modal-body a {
+	float: right;
+	margin: 0 0 1em 1em;
+	width: 50%;
+	max-width: 240px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	color: inherit;
+}
+
+.modal-body a img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.modal-body p a {
+	margin: 0;
+	text-align: inherit;
+	float: none;
+	width: auto;
+	display: inline;
+}
+
+.label{
+    font-size: 100% !important;
+}
+
+table {
+	width: 100%;
+}
+
+td, th {
+	padding: 5px;
+    color: #000 !important;
+    background-color: none !important;
+}
+
+th.label{
+         background-color: none !important; 
+}
+
+th {
+	width: 1px;
+	white-space: nowrap;
+	text-align: right;
+}
+
+td {
+	text-align: left;
+}
+
+input, select, textarea {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 2px 0;
+}
+
+#email-field {
+	display: none;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    border-radius: 0px;
+}
+
+.modal .button:hover{
+    background-color: #b94b01 !important;
+}
 
